@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "Hard Refresh Button",
+	"description": "Button to refresh the current page without using the cache.",
+	"version": "1.0.0",
+	"author": "electrotype",
+	"icons": {
+		"32": "icons/32.png",
+		"48": "icons/48.png",
+		"96": "icons/96.png"
+	},
+	"browser_action": {
+		"default_title": "Hard Refresh",
+		"default_icon": {
+			"32": "icons/32.png",
+			"48": "icons/48.png",
+			"96": "icons/96.png"
+		}
+	},
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	}
+}

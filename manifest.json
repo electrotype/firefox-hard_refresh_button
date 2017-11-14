@@ -6,15 +6,13 @@
 	"author": "electrotype",
 	"icons": {
 		"32": "icons/32.png",
-		"48": "icons/48.png",
-		"96": "icons/96.png"
+		"48": "icons/48.png"
 	},
 	"browser_action": {
 		"default_title": "Hard Refresh",
 		"default_icon": {
 			"32": "icons/32.png",
-			"48": "icons/48.png",
-			"96": "icons/96.png"
+			"48": "icons/48.png"
 		}
 	},
 	"background": {
